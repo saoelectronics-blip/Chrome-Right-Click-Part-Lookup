@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Part Search Sites",
+  "version": "1.0",
+  "description": "Right-click to search Radwell for highlighted text.",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
